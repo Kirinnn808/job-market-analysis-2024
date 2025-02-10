@@ -1,10 +1,10 @@
 ---
 title: "Business Analytics, Data Science, and Machine Learning Trends"
-author: "Your Name / Team Name"
+author: "Team1"
 date: "`r Sys.Date()`"
 format: html
 bibliography: references.bib
-csl: csl/econometrica.csl
+
 ---
 
 # **Introduction**
