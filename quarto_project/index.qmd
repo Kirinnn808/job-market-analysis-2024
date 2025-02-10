@@ -1,0 +1,34 @@
+---
+title: "Business Analytics, Data Science, and Machine Learning Trends"
+author: "Your Name / Team Name"
+date: "`r Sys.Date()`"
+format: html
+bibliography: references.bib
+csl: csl/econometrica.csl
+---
+
+# **Introduction**
+The rapid adoption of **Artificial Intelligence (AI) and Machine Learning (ML)** in business analytics and data science is transforming how industries operate. AI-driven technologies are reshaping job roles, enhancing decision-making, and automating key processes, particularly in **Human Resource Management (HRM), talent acquisition, and workforce planning**. This study aims to examine the **most in-demand skills, evolving job descriptions, and industry hiring trends** in **2024**, helping professionals navigate the changing job market.  
+
+Key trends that make this a crucial area of study include:  
+- The increasing reliance on **AI-powered HR analytics** to optimize recruitment and performance evaluation.  
+- The growing demand for **AI/ML expertise** in data science and business analytics roles.  
+- The role of **automation in redefining traditional job functions and skill requirements**.  
+
+By analyzing these trends, this research will provide valuable insights into the **career outlook for business analytics professionals** and the necessary skills for success in an AI-driven job market.
+
+# **Literature Review**
+Recent research highlights AI's transformative role in **HRM and workforce analytics**. **Basnet (2024)** explores how **AI-powered hiring systems** are improving recruitment accuracy, reducing biases, and enabling predictive workforce planning. AI’s ability to analyze large datasets allows HR professionals to **identify optimal candidates** and streamline hiring processes.  
+
+Moreover, AI-driven tools in **business analytics** are influencing hiring trends. Companies are **increasingly prioritizing AI/ML expertise** when recruiting data scientists and business analysts. However, **Basnet (2024)** also highlights challenges, such as **algorithmic bias, data privacy concerns, and ethical implications**, that must be addressed to ensure fair hiring practices.  
+
+This study will further explore how AI is shaping **job descriptions, salary trends, and career pathways** in data science and business analytics, providing a roadmap for professionals to align their skills with evolving industry needs.  
+
+# **Conclusion**
+The integration of AI and ML in HRM represents a transformative shift in how organizations manage human capital. While these technologies improve efficiency and decision-making, challenges such as **algorithmic bias and ethical concerns** must be addressed to ensure fair and transparent hiring processes. As businesses continue to embrace AI-driven HR solutions, professionals in business analytics and data science must acquire skills in **AI ethics, workforce analytics, and automation strategies** to stay competitive in the evolving job market.  
+
+This literature review highlights how AI is shaping the future of HRM, reinforcing the necessity for job seekers and HR professionals to adapt to **technological advancements** while maintaining a **human-centric approach to workforce management**.
+
+# **References**
+::: {#refs}
+:::
