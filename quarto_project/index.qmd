@@ -1,6 +1,6 @@
 ---
 title: "Business Analytics, Data Science, and Machine Learning Trends"
-author: "Team1"
+author: "JIajie Wu, Qilin Zhang, Maihong Xu"
 date: "`r Sys.Date()`"
 format: html
 bibliography: references.bib
