@@ -45,7 +45,7 @@ print(f"Total entries after deduplication: {len(df)}")
 
 import plotly.express as px
 
-ffig = px.bar(df["Industry"].value_counts(), title="Job Postings by Industry")
+fig = px.bar(df["Industry"].value_counts(), title="Job Postings by Industry")
 fig.show()
 
 fig = px.box(df, x="Industry", y="Salary", title="Salary Distribution by Industry")
