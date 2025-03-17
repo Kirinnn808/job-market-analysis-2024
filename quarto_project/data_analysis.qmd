@@ -1,4 +1,4 @@
-data_analysis.ipynb
+data_analysis.qmd
 ---
 title: "Data Analysis"
 subtitle: "Comprehensive Data Cleaning & Exploratory Analysis"
