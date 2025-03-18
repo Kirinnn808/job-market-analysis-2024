@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="JIajie Wu, Qilin Zhang, Maihong Xu">
 
-<title>Business Analytics, Data Science, and Machine Learning Trends – Job Market Analysis 2024</title>
+<title>Data Analysis – Job Market Analysis 2024</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -109,7 +88,7 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -117,7 +96,7 @@ div.csl-indent {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data_analysis.html"> 
+    <a class="nav-link active" href="./data_analysis.html" aria-current="page"> 
 <span class="menu-text">Data Analysis</span></a>
   </li>  
   <li class="nav-item">
@@ -140,10 +119,8 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><strong>Introduction</strong></a></li>
-  <li><a href="#literature-review" id="toc-literature-review" class="nav-link" data-scroll-target="#literature-review"><strong>Literature Review</strong></a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><strong>Conclusion</strong></a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><strong>References</strong></a></li>
+  <li><a href="#remove-duplicates-based-on-key-columns" id="toc-remove-duplicates-based-on-key-columns" class="nav-link active" data-scroll-target="#remove-duplicates-based-on-key-columns"><span class="header-section-number">1</span> Remove duplicates based on key columns</a></li>
+  <li><a href="#verify-remaining-rows" id="toc-verify-remaining-rows" class="nav-link" data-scroll-target="#verify-remaining-rows"><span class="header-section-number">2</span> Verify remaining rows</a></li>
   </ul>
 </nav>
     </div>
@@ -152,26 +129,36 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Business Analytics, Data Science, and Machine Learning Trends</h1>
+<h1 class="title">Data Analysis</h1>
+<p class="subtitle lead">Comprehensive Data Cleaning &amp; Exploratory Analysis</p>
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">maihongxu jiajiewu qilinzhang </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Boston University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">maihongxu jiajiewu qilinzhang </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Boston University
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>JIajie Wu, Qilin Zhang, Maihong Xu </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
-    </div>
-  </div>
+      
   
     
   </div>
@@ -181,42 +168,30 @@ div.csl-indent {
 </header>
 
 
-<section id="introduction" class="level1">
-<h1><strong>Introduction</strong></h1>
-<p>The rapid adoption of <strong>Artificial Intelligence (AI) and Machine Learning (ML)</strong> in business analytics and data science is transforming how industries operate. AI-driven technologies are reshaping job roles, enhancing decision-making, and automating key processes, particularly in <strong>Human Resource Management (HRM), talent acquisition, and workforce planning</strong>. This study aims to examine the <strong>most in-demand skills, evolving job descriptions, and industry hiring trends</strong> in <strong>2024</strong>, helping professionals navigate the changing job market.</p>
-<p>Key trends that make this a crucial area of study include:<br>
-- The increasing reliance on <strong>AI-powered HR analytics</strong> to optimize recruitment and performance evaluation.<br>
-- The growing demand for <strong>AI/ML expertise</strong> in data science and business analytics roles.<br>
-- The role of <strong>automation in redefining traditional job functions and skill requirements</strong>.</p>
-<p>By analyzing these trends, this research will provide valuable insights into the <strong>career outlook for business analytics professionals</strong> and the necessary skills for success in an AI-driven job market.</p>
+<p>data_analysis.qmd</p>
+<p>import pandas as pd</p>
+<p>df = pd.read_csv(“lightcast_job_postings.csv”)</p>
+<p>print(df.head()) print(df.info())</p>
+<p>columns_to_drop = [ “ID”, “URL”, “ACTIVE_URLS”, “DUPLICATES”, “LAST_UPDATED_TIMESTAMP”, “NAICS2”, “NAICS3”, “NAICS4”, “NAICS5”, “NAICS6”, “SOC_2”, “SOC_3”, “SOC_5”]</p>
+<p>df.drop(columns=columns_to_drop, inplace=True)</p>
+<p>print(“Updated DataFrame columns:”, df.columns.tolist())</p>
+<p>missing_percent = df.isnull().mean() * 100 missing_percent = missing_percent[missing_percent &gt; 0].sort_values(ascending=False)</p>
+<p>import pandas as pd import matplotlib.pyplot as plt<br>
+import missingno as msno</p>
+<p>df = pd.read_csv(“lightcast_job_postings.csv”)</p>
+<p>msno.heatmap(df) plt.title(“Missing Values Heatmap”) plt.show()</p>
+<p>df[“SALARY”].fillna(df[“SALARY”].median(), inplace=True) df[“CITY_NAME”].fillna(“Unknown”, inplace=True) df.dropna(thresh=len(df) * 0.5, axis=1, inplace=True)</p>
+<section id="remove-duplicates-based-on-key-columns" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Remove duplicates based on key columns</h1>
+<p>df = df.drop_duplicates( subset=[“TITLE”, “COMPANY”, “LOCATION”, “POSTED”], keep=“first” )</p>
 </section>
-<section id="literature-review" class="level1">
-<h1><strong>Literature Review</strong></h1>
-<p>Recent research highlights AI’s transformative role in <strong>HRM and workforce analytics</strong>. <strong>Basnet (2024)</strong> explores how <strong>AI-powered hiring systems</strong> are improving recruitment accuracy, reducing biases, and enabling predictive workforce planning. AI’s ability to analyze large datasets allows HR professionals to <strong>identify optimal candidates</strong> and streamline hiring processes.</p>
-<p>Moreover, AI-driven tools in <strong>business analytics</strong> are influencing hiring trends. Companies are <strong>increasingly prioritizing AI/ML expertise</strong> when recruiting data scientists and business analysts. However, <strong>Basnet (2024)</strong> also highlights challenges, such as <strong>algorithmic bias, data privacy concerns, and ethical implications</strong>, that must be addressed to ensure fair hiring practices.</p>
-<p>This study will further explore how AI is shaping <strong>job descriptions, salary trends, and career pathways</strong> in data science and business analytics, providing a roadmap for professionals to align their skills with evolving industry needs. <span class="citation" data-cites="basnet2024ai">Basnet (<a href="#ref-basnet2024ai" role="doc-biblioref">2024</a>)</span></p>
-<p>Artificial Neural Networks (ANNs) and Machine Learning (ML) Modeling Employee Behavior with Management Towards the Economic Advancement of Workers：This study primarily explores how artificial neural networks (ANNs) and machine learning (ML) can model employee behavior and management interactions to drive economic advancement. While focused on HR dynamics, it indirectly highlights key trends in data science and ML. The use of shallow feed-forward ANNs to analyze non-linear relationships between job satisfaction, communication, and organizational outcomes underscores the demand for skills like <strong>predictive modeling, AI tool proficiency (e.g., TensorFlow/PyTorch)</strong>, and <strong>statistical validation</strong> (e.g., linear regression). The emphasis on cross-industry data sampling suggests that roles in 2024 increasingly prioritize <strong>AI-driven decision-making</strong> and the ability to translate technical insights into actionable business strategies. Job descriptions now likely stress expertise in deploying ML solutions to solve real-world problems, such as predicting turnover or optimizing productivity, reflecting a shift toward hybrid skills in both analytics and domain-specific knowledge.</p>
-<p>In terms of industry demand, the study’s multi-sector approach implies that <strong>data-heavy fields like finance, healthcare, and retail</strong> are aggressively hiring data scientists to enhance operational efficiency and employee management. For business analytics professionals, the career outlook ties closely to bridging technical and business realms—mastering tools like Python/SQL while interpreting data to uncover growth opportunities. As AI automates routine tasks (e.g., replacing dashboards with predictive reports), analysts must adapt by integrating ML into workflows. This evolution signals that future success hinges on <strong>continuous upskilling in AI/ML</strong> and cultivating collaborative mindsets to align data initiatives with organizational goals, ensuring relevance in a rapidly evolving job market. <span class="citation" data-cites="lee2024artificial">Lee (<a href="#ref-lee2024artificial" role="doc-biblioref">2024</a>)</span>.</p>
-<p>The integration of Artificial Intelligence (AI) and Machine Learning (ML) into Business Intelligence (BI) and analytics has revolutionized how organizations analyze data and make strategic decisions. This research explores the transformative impact of AI technologies, such as predictive analytics, natural language processing (NLP), computer vision, and robotic process automation (RPA), on BI systems. By leveraging these advanced technologies, businesses can enhance their ability to process large datasets, automate repetitive tasks, and generate actionable insights. The study aims to highlight the opportunities and challenges associated with AI-driven BI, providing a comprehensive understanding of how these technologies can improve decision-making, operational efficiency, and customer experiences across various industries. Recent studies have emphasized the growing importance of AI in enhancing BI capabilities. Research by Davenport (2018) and Sun et al.&nbsp;(2018) highlights the shift from descriptive to predictive and prescriptive analytics, enabled by AI and ML. NLP and text analytics have been particularly transformative, allowing businesses to extract insights from unstructured data like customer reviews and social media posts (Kaushik, 2022). Additionally, the integration of AI with IoT and Big Data has further expanded the scope of BI, enabling real-time analytics and more accurate forecasting (Eboigbe et al., 2023). Despite these advancements, challenges such as data quality, algorithmic transparency, and ethical considerations remain critical barriers to the widespread adoption of AI in BI (Rana et al., 2022). This paper contributes to the ongoing discourse by examining current trends, techniques, and future opportunities in AI-driven BI, offering valuable insights for both academia and industry. <span class="citation" data-cites="rane2024business">Rane et al. (<a href="#ref-rane2024business" role="doc-biblioref">2024</a>)</span></p>
-</section>
-<section id="conclusion" class="level1">
-<h1><strong>Conclusion</strong></h1>
-<p>The integration of AI and ML in HRM represents a transformative shift in how organizations manage human capital. While these technologies improve efficiency and decision-making, challenges such as <strong>algorithmic bias and ethical concerns</strong> must be addressed to ensure fair and transparent hiring processes. As businesses continue to embrace AI-driven HR solutions, professionals in business analytics and data science must acquire skills in <strong>AI ethics, workforce analytics, and automation strategies</strong> to stay competitive in the evolving job market.</p>
-<p>This literature review highlights how AI is shaping the future of HRM, reinforcing the necessity for job seekers and HR professionals to adapt to <strong>technological advancements</strong> while maintaining a <strong>human-centric approach to workforce management</strong>.</p>
-</section>
-<section id="references" class="level1">
-<h1><strong>References</strong></h1>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-basnet2024ai" class="csl-entry" role="listitem">
-Basnet, Sunil. 2024. <span>“Artificial Intelligence and Machine Learning in Human Resource Management: Prospect and Future Trends.”</span> <em>International Journal of Research Publication and Reviews</em> 5 (1): 281–87. <a href="https://www.researchgate.net/profile/Sunil-Basnet-9/publication/377113612_Artificial_Intelligence_and_Machine_Learning_in_Human_Resource_Management_Prospect_and_Future_Trends/links/659620022468df72d3f95757/Artificial-Intelligence-and-Machine-Learning-in-Human-Resource-Management-Prospect-and-Future-Trends.pdf">https://www.researchgate.net/profile/Sunil-Basnet-9/publication/377113612_Artificial_Intelligence_and_Machine_Learning_in_Human_Resource_Management_Prospect_and_Future_Trends/links/659620022468df72d3f95757/Artificial-Intelligence-and-Machine-Learning-in-Human-Resource-Management-Prospect-and-Future-Trends.pdf</a>.
-</div>
-<div id="ref-lee2024artificial" class="csl-entry" role="listitem">
-Lee, Cristina. 2024. <span>“Artificial Neural Networks (ANNs) and Machine Learning (ML) Modeling Employee Behavior with Management Towards the Economic Advancement of Workers.”</span> <em>Sustainability</em> 16: 9516. <a href="https://doi.org/10.3390/su16219516">https://doi.org/10.3390/su16219516</a>.
-</div>
-<div id="ref-rane2024business" class="csl-entry" role="listitem">
-Rane, Nitin Lildhar, Mallikarjuna Paramesha, Saurabh P. Choudhary, and Jayesh Rane. 2024. <span>“Business Intelligence and Business Analytics with Artificial Intelligence and Machine Learning: Trends, Techniques, and Opportunities.”</span> <em>SSRN Electronic Journal</em> 16: 112–30. <a href="https://doi.org/10.2139/ssrn.4831920">https://doi.org/10.2139/ssrn.4831920</a>.
-</div>
-</div>
+<section id="verify-remaining-rows" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Verify remaining rows</h1>
+<p>print(f”Total entries after deduplication: {len(df)}“)</p>
+<p>import plotly.express as px</p>
+<p>fig = px.bar(df[“CITY_NAME”].value_counts(), title=“Job Postings by city”) fig.show()</p>
+<p>fig = px.box(df, x=“CITY_NAME”, y=“SALARY”, title=“Salary() Distribution by city”) fig.show()</p>
+<p>fig = px.pie(df, names=“REMOTE_TYPE_NAME”, title=“Remote vs.&nbsp;On-Site Jobs”) fig.show()</p>
 
 
 </section>

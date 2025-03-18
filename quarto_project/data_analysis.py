@@ -1,25 +1,3 @@
-data_analysis.qmd
----
-title: "Data Analysis"
-subtitle: "Comprehensive Data Cleaning & Exploratory Analysis"
-author:
-  - name: maihongxu jiajiewu qilinzhang
-    affiliations:
-      - id: bu
-        name: Boston University
-        city: Boston
-        state: MA
-  - name: maihongxu jiajiewu qilinzhang
-    affiliations:
-      - ref: bu
-bibliography: references.bib
-format: 
-  html:
-    toc: true
-    number-sections: true
-    df-print: paged
----
-
 import pandas as pd
 
 df = pd.read_csv("lightcast_job_postings.csv")
@@ -37,11 +15,12 @@ df.drop(columns=columns_to_drop, inplace=True)
 
 print("Updated DataFrame columns:", df.columns.tolist())
 
+# 计算各列缺失值比例
 missing_percent = df.isnull().mean() * 100
 missing_percent = missing_percent[missing_percent > 0].sort_values(ascending=False)
 
 import pandas as pd
-import matplotlib.pyplot as plt  
+import matplotlib.pyplot as plt  # 添加此行
 import missingno as msno
 
 df = pd.read_csv("lightcast_job_postings.csv")
