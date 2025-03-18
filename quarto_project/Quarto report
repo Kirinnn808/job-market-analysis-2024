@@ -1,0 +1,17 @@
+4.1
+a. Which columns are irrelevant or redundant?
+We are removing columns that are unnecessary or redundant, such as ID, URLs, active links, duplicate markers, and last updated timestamps. These columns are mainly for tracking purposes and do not contribute to our analysis. Additionally, NAICS and SOC codes have multiple versions, so we keep only the latest ones, NAICS_2022_6 and SOC_2021_4, to avoid duplication.
+b. Why are we removing multiple versions of NAICS/SOC codes?
+NAICS and SOC codes classify industries and occupations at different levels. Keeping multiple versions can lead to redundancy and confusion. By retaining only the latest and most detailed versions, we ensure that our data is up-to-date and more precise for analysis.
+c. How will this improve analysis?
+Removing unnecessary columns makes the dataset cleaner, reduces processing time, and improves efficiency. Eliminating duplicate information ensures more accurate analysis results without interference from outdated or redundant classifications.
+
+5
+a. Why these visualizations were chosen.
+Bar charts are particularly effective for comparing values across distinct categories. Bar charts can be extended to include multiple data series through grouped or stacked formats, allowing for more complex comparisons.
+Box plots provide a compact yet detailed view of key statistical measures, including the median, quartiles, and potential outliers. This makes them invaluable for understanding the spread, skewness, and central tendency of a dataset.
+Pie charts are best suited for illustrating proportions or percentages. It circular design, where each slice represents a category’s contribution to the total. Pie charts are most effective when the number of categories is small, as they can quickly convey how individual parts relate to the overall dataset. 
+b. Key insights from each graph.
+Bar chart：The chart clearly indicate market often full-time positions are the most common. It also highlights the presence of part-time and hybrid roles in job market that can appeal to different job seekers.
+Box plot：The visualization displays a wide range of salary levels, suggesting that compensation is significantly influenced by location. Higher salaries in certain cities may reflect adjustments for cost-of-living differences, making location a key factor in compensation strategy. Understanding these differences can help companies benchmark their offers and assist job seekers in negotiating salaries based on regional trends.
+Pie chart：The majority of postings classified as remote (78.3%), the graph underscores a strong trend toward remote work arrangements. The presence of hybrid roles (around 17%) indicates that while fully remote work is preferred, a blend of remote and on-site options is also gaining traction. A much smaller fraction of job postings remains strictly on-site.
